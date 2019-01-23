@@ -154,7 +154,7 @@ public class cSpeechService extends Service
 
         try
         {
-            InputStream     credentials = assetManager.open("credentials.json");
+            InputStream     credentials = assetManager.open("voshow-bc8e8565c2cd.json");
             ManagedChannel  channel = CreateChannel(HOSTNAME, PORT, credentials);
             mApi            = SpeechGrpc.newStub(channel);
             Log.i("STT Service Info", "onCreate()");

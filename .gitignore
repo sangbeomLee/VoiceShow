@@ -19,3 +19,6 @@ app/src/main/assets/
 *.json
 
 app/release/
+*.json
+*.json
+app/google-services.json
